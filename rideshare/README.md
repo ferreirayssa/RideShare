@@ -1,16 +1,22 @@
-# rideshare
+# 🚗 RideShare - Caronas Comunitárias
+O *RideShare* é um aplicativo de mobilidade urbana focado em segurança e integração comunitária. O projeto visa facilitar o transporte compartilhado, oferecendo ferramentas de monitoramento em tempo real e comunicação direta entre motorista e passageiro.
 
-A new Flutter project.
+## 🚀 Funcionalidades
+1. Geolocalização em Tempo Real: Localização via GPS para acompanhamento preciso durante a corrida.
+2. Busca Inteligente: Integração com a API Nominatim para busca de destinos via endereços.
+3. Roteamento: Traçado de rotas automático utilizando o motor OSRM, exibindo caminhos otimizados no mapa.
 
-## Getting Started
+## 🛠️ Tecnologias Utilizadas
+- *Flutter & Dart*: Desenvolvimento de interface multiplataforma.
+- *OpenStreetMap* (Flutter Map): Base cartográfica gratuita e colaborativa.
+- *Nominatim API*: Geocodificação para transformar endereços em coordenadas.
+- *OSRM* (Open Source Routing Machine): Cálculo de rotas e direções.
+- *Geolocator*: Gerenciamento de permissões e captura de posição global.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📂 Estrutura do Projeto
+O código está organizado de forma modular para facilitar a manutenção:
+´´main.dart:´´ Gerenciamento de login e fluxos de entrada.
+´´map_screen.dart:´´ Tela principal com mapa, busca e lógica de roteamento.
+´´chat_screen.dart:´´ Interface de mensagens com detalhes do motorista.
+´´profile_screen.dart:´´ Perfil do usuário (Ex: Antonio B Souza).
+´´driver_profile_screen.dart:´´ Detalhes do motorista (Ex: Ricardo Carmo).
