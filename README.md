@@ -15,8 +15,8 @@ O *RideShare* é um aplicativo de mobilidade urbana focado em segurança e integ
 
 ## 📂 Estrutura do Projeto
 O código está organizado de forma modular para facilitar a manutenção:
-´´main.dart:´´ Gerenciamento de login e fluxos de entrada.
-´´map_screen.dart:´´ Tela principal com mapa, busca e lógica de roteamento.
-´´chat_screen.dart:´´ Interface de mensagens com detalhes do motorista.
-´´profile_screen.dart:´´ Perfil do usuário (Ex: Antonio B Souza).
-´´driver_profile_screen.dart:´´ Detalhes do motorista (Ex: Ricardo Carmo).
+``main.dart:`` Gerenciamento de login e fluxos de entrada.
+``map_screen.dart:`` Tela principal com mapa, busca e lógica de roteamento.
+``chat_screen.dart:`` Interface de mensagens com detalhes do motorista.
+``profile_screen.dart:`` Perfil do usuário (Ex: Antonio B Souza).
+``driver_profile_screen.dart:`` Detalhes do motorista (Ex: Ricardo Carmo).
