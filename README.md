@@ -10,13 +10,13 @@ O *RideShare* é um aplicativo de mobilidade urbana focado em segurança e integ
 
 <table align="center">
   <tr>
-    <td align="center"><b>Login</b><br><img src="../rideshare/assets/login.png" width="200"></td>
-    <td align="center"><b>Mapa</b><br><img src="../rideshare/assets/mapa.png" width="200"></td>
-    <td align="center"><b>Chat</b><br><img src="../rideshare/assets/chat.png" width="200"></td>
+    <td align="center"><b>Login</b><br><img src="assets/login.png" width="200"></td>
+    <td align="center"><b>Mapa</b><br><img src="assets/mapa.png" width="200"></td>
+    <td align="center"><b>Chat</b><br><img src="assets/chat.png" width="200"></td>
   </tr>
   <tr>
-    <td align="center"><b>Perfil Motorista</b><br><img src="../rideshare/assets/motorista.png" width="200"></td>
-    <td align="center"><b>Perfil Usuário</b><br><img src="../rideshare/assets/perfil.png" width="200"></td>
+    <td align="center"><b>Perfil Motorista</b><br><img src="assets/motorista.png" width="200"></td>
+    <td align="center"><b>Perfil Usuário</b><br><img src="assets/perfil.png" width="200"></td>
     <td align="center">---</td>
   </tr>
 </table>
