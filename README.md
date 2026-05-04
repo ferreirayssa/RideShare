@@ -1,19 +1,34 @@
-# 🚗 RideShare - Caronas Comunitárias
+## 🚗 RideShare - Caronas Comunitárias
 O *RideShare* é um aplicativo de mobilidade urbana focado em segurança e integração comunitária. O projeto visa facilitar o transporte compartilhado, oferecendo ferramentas de monitoramento em tempo real e comunicação direta entre motorista e passageiro.
 
-## 🚀 Funcionalidades
+### 🚀 Funcionalidades
 1. Geolocalização em Tempo Real: Localização via GPS para acompanhamento preciso durante a corrida.
 2. Busca Inteligente: Integração com a API Nominatim para busca de destinos via endereços.
 3. Roteamento: Traçado de rotas automático utilizando o motor OSRM, exibindo caminhos otimizados no mapa.
 
-## 🛠️ Tecnologias Utilizadas
+### 📱 Interface do Aplicativo
+
+<table align="center">
+  <tr>
+    <td align="center"><b>Login</b><br><img src="../RideShare/rideshare/assets/login.png" width="200"></td>
+    <td align="center"><b>Mapa</b><br><img src="../RideShare/rideshare/assets/mapa.png" width="200"></td>
+    <td align="center"><b>Chat</b><br><img src="../RideShare/rideshare/assets/chat.png" width="200"></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Perfil Motorista</b><br><img src="../RideShare/rideshare/assets/motorista.png" width="200"></td>
+    <td align="center"><b>Perfil Usuário</b><br><img src="../RideShare/rideshare/assets/perfil.png" width="200"></td>
+    <td align="center">---</td>
+  </tr>
+</table>
+
+### 🛠️ Tecnologias Utilizadas
 - *Flutter & Dart*: Desenvolvimento de interface multiplataforma.
 - *OpenStreetMap* (Flutter Map): Base cartográfica gratuita e colaborativa.
 - *Nominatim API*: Geocodificação para transformar endereços em coordenadas.
 - *OSRM* (Open Source Routing Machine): Cálculo de rotas e direções.
 - *Geolocator*: Gerenciamento de permissões e captura de posição global.
 
-## 📂 Estrutura do Projeto
+### 📂 Estrutura do Projeto
 O código está organizado de forma modular para facilitar a manutenção:
 
 ``main.dart:`` Gerenciamento de login e fluxos de entrada.
